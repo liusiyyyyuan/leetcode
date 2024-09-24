@@ -15,6 +15,7 @@ public class MapTest {
     Integer master1;
     Integer branch_test1;
 
+    String stash2;
     public static void main(String[] args) {
         MapTest mapTest = new MapTest();
         Map<Integer, ArrayList<String>> map = mapTest.arrTest();
