@@ -14,6 +14,7 @@ public class MapTest {
     Integer i;
     Integer master1;
     Integer branch_test1;
+    String stash1;
 
     String stash2;
     public static void main(String[] args) {
@@ -33,9 +34,12 @@ public class MapTest {
         return map1;
     }
 
+
+
     public void setMap1(LinkedHashMap<Integer, ArrayList<String>> map1) {
         this.map1 = map1;
     }
+
 }
 
 class Stash3 {
