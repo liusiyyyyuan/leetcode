@@ -25,6 +25,10 @@ public class MapTest {
         return this.map1;
     }
 
+    public void stashTestFun(){
+        int a = 0;
+    }
+
     public LinkedHashMap<Integer, ArrayList<String>> getMap1() {
         return map1;
     }
@@ -32,4 +36,8 @@ public class MapTest {
     public void setMap1(LinkedHashMap<Integer, ArrayList<String>> map1) {
         this.map1 = map1;
     }
+}
+
+class Stash3 {
+
 }
