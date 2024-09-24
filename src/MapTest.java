@@ -12,6 +12,7 @@ public class MapTest {
 
     LinkedHashMap<Integer, ArrayList<String>> map1;
     Integer i;
+    Integer master1;
 
     public static void main(String[] args) {
         MapTest mapTest = new MapTest();
