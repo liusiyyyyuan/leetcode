@@ -11,6 +11,7 @@ import java.util.Map;
 public class MapTest {
 
     LinkedHashMap<Integer, ArrayList<String>> map1;
+    Integer i;
 
     public static void main(String[] args) {
         MapTest mapTest = new MapTest();
